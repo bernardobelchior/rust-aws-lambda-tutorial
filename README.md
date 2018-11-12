@@ -1,6 +1,6 @@
 ### Rust AWS Lambda Tutorial
 
-This repository hosts the code for my [Rust AWS Lambda Tutorial](), using [rust-aws-lambda](https://github.com/srijs/rust-aws-lambda) and [docker-lambda](https://github.com/lambci/docker-lambda). It also includes a way of testing the function locally, so you don't have to provision an AWS Lambda Function to run your program, reducing the feedback loop.
+This repository hosts the code for my [Rust AWS Lambda Tutorial](https://medium.com/@bernardo.belchior1/running-rust-natively-in-aws-lambda-and-testing-it-locally-57080421426d), using [rust-aws-lambda](https://github.com/srijs/rust-aws-lambda) and [docker-lambda](https://github.com/lambci/docker-lambda). It also includes a way of testing the function locally, so you don't have to provision an AWS Lambda Function to run your program, reducing the feedback loop.
 
 ## Compiling
 
