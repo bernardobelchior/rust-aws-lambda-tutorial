@@ -6,5 +6,5 @@ edition = "2018"
 
 [dependencies]
 aws_lambda = { git = "https://github.com/srijs/rust-aws-lambda" }
-image = "*"
-base64 = "0.10.0"
+image = "^0.20.1"
+base64 = "^0.10.0"

@@ -16,6 +16,10 @@ After installing the target and `musl-gcc`, compiling is only a matter of execut
 
 `$ cargo build --target x86_64-unknown-linux-musl`
 
+In case you want to compile a release version, you must add the `--release` flag:
+
+`$ cargo build --target x86_64-unknown-linux-musl --release`
+
 ## Running
 
 As mentioned above, this tutorial uses [docker-lambda](https://github.com/lambci/docker-lambda), specifically the Go image, as it allows running Rust binaries natively.

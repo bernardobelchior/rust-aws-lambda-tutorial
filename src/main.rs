@@ -1,8 +1,7 @@
 extern crate aws_lambda as lambda;
 extern crate image;
 
-use image::{DynamicImage, ImageError, ImageOutputFormat};
-use image::load_from_memory;
+use image::{load_from_memory, DynamicImage, ImageError, ImageOutputFormat};
 
 fn encode_png_image(image: DynamicImage) -> Result<Vec<u8>, ImageError> {
     let mut result: Vec<u8> = Vec::new();
