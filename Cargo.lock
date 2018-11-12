@@ -744,7 +744,6 @@ version = "0.1.0"
 dependencies = [
  "aws_lambda 0.1.0 (git+https://github.com/srijs/rust-aws-lambda)",
  "base64 0.10.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "failure 0.1.3 (registry+https://github.com/rust-lang/crates.io-index)",
  "image 0.20.1 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
